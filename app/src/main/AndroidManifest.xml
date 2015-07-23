@@ -20,7 +20,6 @@
 
         <service
             android:name=".ListWidgetService"
-            android:enabled="false"
             android:exported="false"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
