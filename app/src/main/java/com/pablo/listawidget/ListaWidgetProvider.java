@@ -5,6 +5,7 @@ import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.widget.ListView;
 import android.widget.RemoteViews;
 
 
@@ -46,6 +47,8 @@ public class ListaWidgetProvider extends AppWidgetProvider {
         // This is how you populate the data.
         //
         // el adaptador remoto seria el ListView . Listview es un adapterView.
+
+
 
         rv.setRemoteAdapter(R.id.list_view, intent);
         // rv.setRemoteAdapter(appWidgetId, R.id.list_view, intent);
